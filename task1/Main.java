@@ -7,7 +7,7 @@ public class Main {
         double[][] array = new double[n][s];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                array[i][j] = Math.random();
+                array[i][j] = Math.random(); //Можно попробовать без Random
             }
         }
 
